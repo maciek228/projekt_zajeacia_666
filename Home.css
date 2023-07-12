@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.home_main{
+    background-color: white;
+
+}
+.home_title{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 80px;
+}
+.home_subtitle{
+    background-color: rgb(34, 204, 77);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 3;
+}
+
+.home_button{
+    width: 265px;
+    height: 80px;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.home_button:hover{
+    background-color:  black;
+    scale: 1.4;
+    color: white;
+}
+
+.home_top{
+    background-color: rgb(0, 255, 247);
+    min-height: 15vh;
+}
+
+.home_about{
+    color: blue;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:10px;
+    right: 10px;
+
+}
+
+.home_botton{
+   background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home_left{
+    /* background-color: lightblue; */
+    width: 40 vw;
+}
+
+.home_right{
+    background-color: rgba(0, 0, 255, 0.382); 
+    width: 40 vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+@media screen and (max-width: 1100){
+    .home_botton{
+        /* background-color: red;*/
+         display: flex;
+         justify-content: center;
+     
+     }
+
+}
+
+
